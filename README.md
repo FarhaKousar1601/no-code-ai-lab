@@ -1,69 +1,74 @@
 
 # No-Code AI Lab: Build, Train, and Test Without Coding
 
-Exploring Artificial Intelligence and machine learning through no-code tools and hands-on experiments.
+Exploring Artificial Intelligence and Machine Learning through no-code tools and hands-on experiments.
 
 ## About the Project
 
 This repository documents my learning journey through the **No-Code AI Lab: Build, Train, and Test Without Coding** course on Excelerate, supported by the **Rochester Institute of Technology (RIT)**.
 
-The project focuses on understanding how AI models can be developed, trained, and evaluated using visual tools without writing code.
+The course explores how AI models can be developed, trained, and tested using visual tools without writing code.
+
+The repository includes two practical activities:
+
+- **Experiment 1:** Pen vs. Pencil Image Classification
+- **Final Capstone:** EcoSort AI — No-Code Waste Classification
 
 ## What Is No-Code AI?
 
-No-Code AI enables users to explore and build AI models through graphical interfaces instead of programming them from scratch.
+No-Code AI enables users to build and explore AI models through graphical interfaces instead of programming them from scratch.
 
 It allows users to:
+
 - Create and organize data samples.
 - Train machine learning models using visual tools.
 - Test predictions using new inputs.
-- Observe model performance and limitations.
-- Explore practical applications of AI.
+- Observe model predictions and limitations.
+- Explore practical applications of artificial intelligence.
 
-No-code tools simplify the model-building process while still requiring an understanding of data quality, training, testing, and evaluation.
+## Tools and Technologies
 
-## Platform Explored: Google Teachable Machine
+| Tool | Purpose |
+|---|---|
+| Google Teachable Machine | Building, training, and testing image classification models |
+| Excelerate | Course learning and activities |
+| GitHub | Project documentation and version control |
+| Image datasets | Training and experimenting with classification models |
+| Markdown | Technical documentation |
 
-**Project:** 
+## Platform: Google Teachable Machine
 
-## Experiment Screenshot
+[Google Teachable Machine](https://teachablemachine.withgoogle.com/) is a browser-based platform that lets users create machine learning models using images, sounds, or body poses without writing code.
 
-![Google Teachable Machine Pen vs Pencil experiment](https://raw.githubusercontent.com/FarhaKousar1601/no-code-ai-lab/main/Screenshot%202026-10-24%20101435.png)
+The image classification workflow includes:
 
+1. Creating classes for different categories.
+2. Collecting or uploading example images.
+3. Training an image classification model.
+4. Testing predictions using the preview interface.
+5. Observing predicted classes and confidence scores.
 
+---
 
-Google Teachable Machine is a browser-based platform that lets users create machine learning models using images, sounds, or body poses without writing code.
+# Experiment 1: Pen vs. Pencil Image Classification
 
-I explored its **Image Project** to understand the interface and the basic workflow of image classification.
+## Objective
 
-The platform supports:
-- Creating classes for different categories.
-- Collecting or uploading example images.
-- Training an image classification model.
-- Testing predictions with new images.
-- Viewing predicted classes and confidence scores.
+Explore how a machine learning model learns to distinguish between two visual categories.
 
-## Image Classification Experiment: Pen vs. Pencil
+## Dataset
 
-**Objective:** Explore how a machine learning model learns to distinguish between two visual categories.
-
-### Dataset
-
-The experiment uses two image classes:
-
-| Class | Number of image samples |
+| Class | Image Samples |
 |---|---:|
 | Pen | 3 |
 | Pencil | 3 |
 | **Total** | **6** |
 
-### Experiment Screenshot
+## Experiment Screenshot
 
-![Google Teachable Machine image classification project showing Pen and Pencil classes](images/teachable-machine.png)
+![Google Teachable Machine Pen vs Pencil experiment](https://raw.githubusercontent.com/FarhaKousar1601/no-code-ai-lab/main/Screenshot%202026-10-24%20101435.png)
 
-*The screenshot shows the two classes, their image samples, training settings, and the model preview.*
-
-### Training Configuration
+## Training Configuration
 
 | Setting | Value |
 |---|---:|
@@ -71,129 +76,266 @@ The experiment uses two image classes:
 | Batch size | 16 |
 | Learning rate | 0.001 |
 
-The interface indicates that the model is trained. The preview displays an image of a pen, but this alone does not establish prediction accuracy or performance on unseen images.
+## Workflow
 
-### Experiment Workflow
+1. Created separate classes for Pen and Pencil.
+2. Added example images to each class.
+3. Configured the training settings.
+4. Trained the model using Google Teachable Machine.
+5. Explored the model preview.
+6. Identified the need for further testing with unseen images.
 
-1. Create separate classes for Pen and Pencil.
-2. Add example images to each class.
-3. Configure the training settings.
-4. Train the model using Teachable Machine.
-5. Test it with new images not used during training.
-6. Record predictions, identify errors, and evaluate limitations.
+## Observations
 
-### Observations and Next Steps
+The experiment demonstrated how image samples can be organized into classes and used to train a model without coding.
 
-The experiment demonstrates how image samples can be organized into classes and used in a no-code model training workflow.
+With only three samples per class, the dataset is very small. More varied images, backgrounds, angles, and lighting conditions would be needed for a meaningful evaluation.
 
-With only three samples per class, the dataset is very small. The next step is to test the model using more varied images, backgrounds, angles, and lighting conditions to understand how reliably it distinguishes pens from pencils.
+**Evaluation:** No overall accuracy score is claimed for this experiment.
 
-**Evaluation results:** To be documented after testing with new images.
+---
 
-## Key Concepts
+# Final Capstone: EcoSort AI — No-Code Waste Classification
 
-| Concept | Description |
+## Project Overview
+
+**EcoSort AI** is a no-code image classification project that explores how an AI model can categorize waste images into three visual classes:
+
+- Plastic
+- Paper and Cardboard
+- Metal
+
+The project demonstrates a practical machine learning workflow using Google Teachable Machine without writing code.
+
+## Problem Statement
+
+Recycling requires waste materials to be identified and separated into appropriate categories. EcoSort AI explores how image classification could support the recognition of recyclable materials.
+
+This project is an educational prototype, not a production-ready waste-sorting system.
+
+## Objectives
+
+- Explore AI-assisted waste image classification.
+- Create and label three image classes.
+- Train an image classification model.
+- Observe predictions and confidence scores.
+- Understand dataset limitations and model evaluation.
+- Explore a practical application of AI for recycling awareness.
+
+## Class Labels
+
+| Class | Example Items |
 |---|---|
-| Artificial Intelligence (AI) | Technology that enables computers to perform tasks associated with human intelligence. |
-| Machine Learning (ML) | A branch of AI in which models learn patterns from data. |
-| Training | Using examples to help a model learn patterns. |
-| Classification | Assigning an input to one of several categories. |
-| Prediction | The output produced by a model for an input. |
-| Evaluation | Assessing model performance using appropriate test examples. |
+| Plastic | Plastic bottles, caps, containers, and packaging |
+| Paper and Cardboard | Paper sheets, newspapers, and cardboard boxes |
+| Metal | Metal cans, scraps, and metal containers |
 
-## Real-World Applications of AI
+## Dataset Summary
 
-- **Image recognition:** Identifying objects in photographs.
-- **Recommendation systems:** Suggesting relevant products or content.
-- **Data analysis:** Discovering patterns and trends in datasets.
-- **Fraud detection:** Identifying potentially suspicious transactions.
+The trained model contained the following samples in the recorded project:
 
-## Course Information
+| Class | Image Samples |
+|---|---:|
+| Plastic | 7 |
+| Paper and Cardboard | 7 |
+| Metal | 7 |
+| **Total** | **21** |
 
-- **Course:** No-Code AI Lab: Build, Train, and Test Without Coding
-- **Category:** Power Skill Courses
-- **Supported by:** Rochester Institute of Technology (RIT)
-- **Learning platform:** Excelerate
-- **Status:** In Progress
+The dataset contains 21 samples across three classes. This is a small demonstration dataset and is not sufficient to establish reliable real-world performance.
 
-## Course Modules
+## Model Training and Workflow
 
-### Module 1: Understanding AI and No-Code Platforms
-- Explore AI fundamentals and no-code platforms.
-- Understand how models learn from data.
-- Identify everyday applications of AI.
-- Complete the module deliverable.
+The model was created and trained using the Google Teachable Machine Image Project interface.
 
-### Module 2: Working with Sample Datasets
-- Explore sample datasets.
-- Understand data preparation for AI training.
-- Identify the importance of data quality.
+1. Created three image classes.
+2. Added example images to their corresponding classes.
+3. Trained the model using the platform's training feature.
+4. Used the Preview panel to observe a prediction.
+5. Recorded the project demonstration.
+6. Documented the initial result and limitations.
 
-### Module 3: Training AI Models
-- Build a machine learning model.
-- Explore the model training process.
-- Understand how training examples influence predictions.
 
-### Module 4: Evaluating and Testing AI Models
-- Test model predictions.
-- Examine incorrect predictions.
-- Understand model performance and limitations.
+## Capstone Project Screenshots
 
-### Module 5: Final Validation and Project Compilation
-- Validate the final model.
-- Compile the project and supporting documentation.
-- Reflect on the learning experience.
-- Complete the final capstone and reflection video.
+### EcoSort AI — No-Code Waste Classification
 
-## Learning Goals
+![EcoSort AI project screenshot](https://raw.githubusercontent.com/FarhaKousar1601/no-code-ai-lab/main/Screenshot%202026-10-24%20123350.png)
 
-- Understand AI and machine learning fundamentals.
-- Explore no-code AI tools and their capabilities.
-- Understand how data influences model training.
-- Practice training and evaluating an image classification model.
-- Document experiment results, challenges, and lessons learned.
-- Identify practical applications of AI.
 
-## Course Progress Tracker
 
-- [x] Course introduction completed
-- [x] Course overview completed
-- [x] Explored the Teachable Machine Image Project
-- [x] Complete the Module 1 deliverable
-- [x] Complete the Module 2 deliverable
-- [ ] Complete the Module 3 deliverable
-- [ ] Complete the Module 4 deliverable
-- [ ] Complete the final capstone and reflection video
- 
+## Initial Observation
+
+For the displayed image of colorful plastic bottles and containers, the preview showed:
+
+- **Predicted class:** Plastic
+- **Displayed confidence:** 100%
+
+This is one observed prediction, not the model's overall accuracy. A confidence score does not guarantee that a prediction is correct.
+
+## Evaluation and Testing
+
+A reliable overall accuracy score requires testing on separate images that were not used for training and recording whether each prediction is correct.
+
+The accuracy formula is:
+
+**Accuracy = (Correct predictions / Total test images) × 100**
+
+No overall accuracy percentage is claimed because a complete set of test results has not been documented.
+
+## Potential Applications
+
+- Recycling education and awareness.
+- Demonstrations of AI-assisted waste classification.
+- Exploring automated waste segregation concepts.
+- Learning about computer vision and supervised machine learning.
+
+## Limitations
+
+- The dataset contains only seven samples per class in the recorded screenshot.
+- The model may be sensitive to backgrounds, lighting, angles, and object appearance.
+- Composite, contaminated, or mixed-material objects may be difficult to classify visually.
+- Confidence scores are not guarantees of correctness.
+- A visual prediction does not determine whether an item is accepted by local recycling facilities.
+- Real-world use would require a larger dataset and systematic evaluation.
+
+## Future Improvements
+
+- Expand the dataset with more varied examples for every class.
+- Keep unseen images separate for testing.
+- Record correct and incorrect predictions.
+- Calculate accuracy from actual test results.
+- Test different backgrounds, lighting conditions, and object angles.
+- Explore additional categories after evaluating the current model.
+
+---
+
+# Course Modules and Progress
+
+The following sections summarize the learning areas and activities documented in this repository. Use the official module titles if they differ from these descriptions.
+
+## Module 1: Understanding AI and No-Code Platforms
+
+Topics explored:
+
+- AI fundamentals and no-code platforms.
+- How machine learning models learn patterns from data.
+- Everyday applications of AI.
+- The role of data in model training.
+
+**Status:** Completed.
+
 ## Module 2: Working with Sample Datasets
 
-Completed the dataset exploration activity using Google Teachable Machine.
+Topics explored:
 
-The notes cover:
-- Dataset overview and structure
-- Inputs, labels, and observations
-- Data preparation and cleaning
-- Potential dataset bias and limitations
+- Dataset structure and organization.
+- Inputs, labels, and observations.
+- Data preparation and quality.
+- Potential dataset bias and limitations.
 
-### Deliverable 2
+**Status:** Completed.
 
-- [Dataset Notes (PDF)][(deliverables/FarhaKousar_Module2_DatasetNotes.pdf)](https://github.com/FarhaKousar1601/no-code-ai-lab/blob/main/FarhaKousar_Module2_DatasetNotes.pdf)
+If the PDF is uploaded to the repository root, you can link it here:
 
-## Learning Journal
+[View Module 2 Dataset Notes (PDF)](FarhaKousar_Module2_DatasetNotes.pdf)
 
-As I progress through the course, this section will include:
-- Key concepts learned.
-- Screenshots of the platform and experiments.
-- Model predictions and observations.
-- Challenges and solutions.
-- Practical applications and reflections.
+## Module 3: Training AI Models
 
-## Final Project
+Topics explored:
 
-The final capstone will document the selected use case, model training process, evaluation results, challenges, and key takeaways after the project is completed.
+- Creating image classes.
+- Uploading training examples.
+- Understanding training settings.
+- Training a model using a visual interface.
+- Observing how training examples influence predictions.
 
-## About This Repository
+**Practical activities:** Pen vs. Pencil experiment and EcoSort AI model training.
 
-This is an independent learning repository documenting my exploration of no-code AI, machine learning concepts, and practical model-building workflows. It will be updated as I complete more course activities and experiments.
+**Status:** Completed.
 
-*This repository is not an official project of Excelerate or the Rochester Institute of Technology.*
+## Module 4: Evaluating and Testing AI Models
+
+Topics explored:
+
+- Viewing model predictions.
+- Understanding confidence scores.
+- Recognizing the difference between confidence and accuracy.
+- Identifying dataset limitations.
+- Understanding the importance of unseen-image testing.
+
+**Practical activity:** Examined the Teachable Machine preview and documented an initial prediction.
+
+**Status:** Completed.
+
+## Module 5: Final Validation and Project Compilation
+
+Activities:
+
+- Selected a practical image classification use case.
+- Built and trained the EcoSort AI model.
+- Recorded the project demonstration.
+- Prepared project documentation.
+- Reflected on the learning process and model limitations.
+
+**Capstone:** EcoSort AI — No-Code Waste Classification.
+
+**Status:** Completed.
+
+---
+
+# Course Progress Tracker
+
+- [x] Course introduction and overview
+- [x] Module 1: Understanding AI and No-Code Platforms
+- [x] Module 2: Working with Sample Datasets
+- [x] Module 3: Training AI Models
+- [x] Module 4: Evaluating and Testing AI Models
+- [x] Module 5: Final Validation and Project Compilation
+- [x] Pen vs. Pencil experiment
+- [x] EcoSort AI model training
+- [x] EcoSort AI demonstration recording
+- [x] Project documentation prepared
+- [x] Course learning activities completed
+
+---
+
+## Learning Outcomes
+
+Through this course and the practical experiments, I explored how to:
+
+- Understand fundamental AI and machine learning concepts.
+- Use a no-code platform to train an image classifier.
+- Organize data into labeled classes.
+- Understand how training examples influence predictions.
+- Interpret confidence scores carefully.
+- Recognize the importance of testing, data quality, and model limitations.
+- Document a practical AI experiment and its results.
+- Explore how AI can be applied to recycling-related use cases.
+
+
+## 🏅 Course Completion Badge
+
+I successfully completed the **No-Code AI Lab: Build, Train, and Test Without Coding** course, supported by Rochester Institute of Technology (RIT).
+
+![No-Code AI Lab Completion Badge](https://raw.githubusercontent.com/FarhaKousar1601/no-code-ai-lab/main/Badge_.png)
+
+
+## Conclusion
+
+The No-Code AI Lab course provided hands-on exposure to creating, training, and testing image classification models without programming.
+
+The Pen vs. Pencil experiment introduced the fundamentals of image classification, while EcoSort AI applied those concepts to a recycling-related use case with three material categories.
+
+This project strengthened my understanding of dataset preparation, model training, prediction confidence, and the importance of evaluating machine learning models using unseen data.
+
+## About the Author
+
+**Farha Kousar**  
+B.E. in Artificial Intelligence and Machine Learning
+
+- **GitHub:** [FarhaKousar1601](https://github.com/FarhaKousar1601)
+- **Portfolio:** [farha-kousar.vercel.app](https://farha-kousar.vercel.app/)
+
+---
+
+*This repository documents an independent learning project and an educational prototype. The recorded prediction is an individual observation, not a verified measure of overall model accuracy. This repository is not an official project of Excelerate or the Rochester Institute of Technology.*
