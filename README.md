@@ -177,7 +177,7 @@ The notes cover:
 
 ### Deliverable 2
 
-- [Dataset Notes (PDF)](deliverables/FarhaKousar_Module2_DatasetNotes.pdf)
+- [Dataset Notes (PDF)][(deliverables/FarhaKousar_Module2_DatasetNotes.pdf)](https://github.com/FarhaKousar1601/no-code-ai-lab/blob/main/FarhaKousar_Module2_DatasetNotes.pdf)
 
 ## Learning Journal
 
