@@ -114,7 +114,6 @@ With only three samples per class, the dataset is very small. The next step is t
 - **Category:** Power Skill Courses
 - **Supported by:** Rochester Institute of Technology (RIT)
 - **Learning platform:** Excelerate
-- **Registration date:** September 25, 2026
 - **Status:** In Progress
 
 ## Course Modules
@@ -160,11 +159,25 @@ With only three samples per class, the dataset is very small. The next step is t
 - [x] Course introduction completed
 - [x] Course overview completed
 - [x] Explored the Teachable Machine Image Project
-- [ ] Complete the Module 1 deliverable
-- [ ] Complete the Module 2 deliverable
+- [x] Complete the Module 1 deliverable
+- [x] Complete the Module 2 deliverable
 - [ ] Complete the Module 3 deliverable
 - [ ] Complete the Module 4 deliverable
 - [ ] Complete the final capstone and reflection video
+ 
+## Module 2: Working with Sample Datasets
+
+Completed the dataset exploration activity using Google Teachable Machine.
+
+The notes cover:
+- Dataset overview and structure
+- Inputs, labels, and observations
+- Data preparation and cleaning
+- Potential dataset bias and limitations
+
+### Deliverable 2
+
+- [Dataset Notes (PDF)](deliverables/FarhaKousar_Module2_DatasetNotes.pdf)
 
 ## Learning Journal
 
