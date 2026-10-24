@@ -24,7 +24,12 @@ No-code tools simplify the model-building process while still requiring an under
 
 ## Platform Explored: Google Teachable Machine
 
-**Project:** [Teachable Machine – Image Project](https://teachablemachine.withgoogle.com/train/image)
+**Project:** 
+### Experiment Screenshot
+
+
+![Google Teachable Machine experiment](./teachable-machine.png)
+
 
 Google Teachable Machine is a browser-based platform that lets users create machine learning models using images, sounds, or body poses without writing code.
 
